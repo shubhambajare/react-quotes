@@ -1,0 +1,9 @@
+.categories-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.categories-container button {
+    border-radius: 25px;
+    margin: 5px;
+}
