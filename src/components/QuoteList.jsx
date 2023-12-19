@@ -9,7 +9,7 @@ export const QuoteList = () => {
 
     return (
         <div>
-            {quotes.map(quote => (
+            {quotes.map((quote, index) => (
                 <QuoteCard
                     key={quote.id}
                     id={quote.id}

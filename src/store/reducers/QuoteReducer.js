@@ -1,5 +1,5 @@
 import { Quotes } from "../../data/Quotes";
-import { SEARCH_BY_CATEGORY, SEARCH_BY_QUERY } from "../actions/QuoteActions";
+import { RESET, SEARCH_BY_CATEGORY, SEARCH_BY_QUERY } from "../actions/QuoteActions";
 
 const getCategories = () => {
 
@@ -58,6 +58,11 @@ export const QuoteReducer = (state = initialState, action) => {
                 quotes: newQuotes
             };
         }
+        case RESET:
+            return {
+                ...state,
+                quotes: []
+            };
         default: return state;
     }
 }
