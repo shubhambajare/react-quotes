@@ -7,3 +7,7 @@
     border-radius: 25px;
     margin: 5px;
 }
+
+.categories-container .MuiButton-containedPrimary:hover {
+    background-color: #f73378;
+}
