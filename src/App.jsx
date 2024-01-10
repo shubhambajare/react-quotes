@@ -15,6 +15,7 @@ function App() {
         <NavBar />
         <Categories />
         <QuoteList />
+        <p style={{ textAlign: "right", color: "gray" }}>Created using React + Redux + MUI</p>
       </Provider>
     </>
   )
